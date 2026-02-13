@@ -26,13 +26,25 @@
     { "id": "prod-fea87a1b-020", "name": "Basic Item 20", "category": "clothing", "price": 279.41, "stock": 131, "rating": 1.6 }
   ],
   "aggregations": {
-    "home": {
-      "count": 4,
-      "inventoryValue": 57068.63
+    "books": {
+      "count": 5,
+      "inventoryValue": 70754.69
     },
     "electronics": {
       "count": 5,
       "inventoryValue": 94177.35
+    },
+    "home": {
+      "count": 4,
+      "inventoryValue": 57068.63
+    },
+    "clothing": {
+      "count": 3,
+      "inventoryValue": 107637.35
+    },
+    "sports": {
+      "count": 3,
+      "inventoryValue": 113888.87
     }
   }
 }
